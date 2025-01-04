@@ -76,9 +76,6 @@
             height: 5rem;
         }
     }
-    .cont-K div {
-        height: 65vh;
-    }
 
     .knop {
         height: 1.5rem;
@@ -106,7 +103,11 @@
     }
 
     .logo {
-        height: 8vh;
+        height: 15.5vh;
+    }
+
+    .cont-A {
+        top: 7.5vh;
     }
 
     .container-frame {
@@ -114,7 +115,7 @@
     }
 
     .cont-K div {
-        height: 29.5vh;
+        height: 37.5vh;
     }
 
     @keyframes text-grow {
@@ -503,9 +504,23 @@
     }
 }
 
-@media  screen and (max-width: 854px) {
+@media screen and (max-width: 913px) {
+    
+}
+
+@media screen and (max-width: 854px) {
     .logo {
-        height: 7vh;
+        height: 8vh;
+    }
+
+    .cont-A {
+        top: 5vh;
+    }
+    .cont-K div {
+        height: 30vh;
+    }
+    .container-frame {
+        height: 35vh;
     }
 
     .zon {
@@ -520,6 +535,10 @@
 }
 
 @media screen and (max-width: 541px) {
+    .container-frame {
+        box-shadow: inset 1px 1px 7.5px 3.75px white;
+    }
+
     @keyframes text-grow {
         from {
             font-size: 0.75em;
@@ -557,8 +576,12 @@
 }
 
 @media screen and (max-width: 431px) {
+    h1 {
+        font-size: 2em;
+    }
+
     .logo {
-        height: 5vh;
+        height: 6vh;
     }
 
     @keyframes text-grow {
@@ -578,12 +601,14 @@
         }
     }
 
-    .container-frame {
-        height: 30vh;
+    .cont-A {
+        top: 5vh;
     }
-
     .cont-K div {
-        height: 17.5vh;
+        height: 20vh;
+    }
+    .container-frame {
+        height: 25vh;
     }
 
 
@@ -906,22 +931,29 @@
     }
 }
 
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 415px) {
     h1 {
         font-size: 1.75em;
+    }
+
+    .cont-A {
+        top: 4vh;
+    }
+    .cont-K div {
+        height: 17.5vh;
+    }
+    .container-frame {
+        height: 22.5vh;
     }
 }
 
 @media screen and (max-width: 376px) {
-    .logo {
-        height: 4vh;
-    }
 
-    .container-frame {
-        height: 30vh;
+    .cont-A {
+        top: 6vh;
     }
+}
 
-    .cont-K div {
-        height: 13.5vh;
-    }     
+@media screen and (max-width: 345px) {
+   
 }
