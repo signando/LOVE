@@ -110,25 +110,18 @@ h1 {
     text-shadow: 2.5px 2.5px 2.5px red;
 }
 
-h2 {
+#h2 {
+    width: 10vw;
+    height: 90vh;
     position: fixed;
     left: 0;
     top: 10vh;
-    font-size: 2.75em;
-    background-color: black;
-    padding-right: 0.5rem;
+    margin: 0;
+    background-image: url(images/textLoveForAll.png);
+    background-size: 150% 100%;
+    background-position-x: 130%;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-}
-h2 span {
-    display: block;
-    text-align: center;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: whitesmoke;
-    text-shadow: 2.5px 2.5px 2.5px red;
-}
-.spatie {
-    font-size: 0.25em;
 }
 
 .logo {
@@ -206,14 +199,17 @@ h2 span {
     border: 2.5px solid black;
 }
 .knop:hover {
-    background-color: rgb(0, 161, 0);
-    color: rgb(0, 255, 0);
+    background-color: rgb(0, 217, 255);
     cursor: pointer;
 }
 .knop span {
+    width: 100%;
+    height: 1.5rem;
     display: block;
-    margin-top: 0.5rem;
-    text-align: center;
+    margin-top: 0.25rem;
+    background-image: url(images/textQuotes.png);
+    background-size: 100% 100%;
+    background-position: center;
 }
 
 .cont-main-2 > div:nth-of-type(3) div {
